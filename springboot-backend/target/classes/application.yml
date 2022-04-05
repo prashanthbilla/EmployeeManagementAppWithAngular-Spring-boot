@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active : prashanth
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operationsSorter: method
+
