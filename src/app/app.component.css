@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgb(158, 136, 102);
+}
+.header{
+    overflow: hidden;
+  background-color: rgb(158, 136, 102);
+  padding: 20px 10px;
+}
+.nav-item{
+  
+  text-shadow: 2px 2px 5px rgb(231, 16, 217);
+  
+}

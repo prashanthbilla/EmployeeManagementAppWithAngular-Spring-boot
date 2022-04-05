@@ -1,0 +1,14 @@
+
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<div class="logo"></div>
+<div class="login-block">
+    <h1>Login</h1>
+    <input type="text" placeholder="Enter EmployeeId" [(ngModel)]="userId" id="userId" name="uname" />
+    <input type="password" placeholder="Enter Password" [(ngModel)]="password" id="password" name="psw" />
+    <button type="submit"  style="text-align: center;" (click)="doLogin()">Login</button>
+      <br>
+      <br>
+      <button type="submit" (click)="doNavigateToCreate()">SignUp</button>
+</div>
+
+  
