@@ -1,5 +1,5 @@
 
-# EmployeeManagementApplication_with_Angular&Spring-boot
+# EmployeeManagementApplicationWithAngular&Spring-boot
 ## Employee Management Application: 
 This project aims to manage the employees that you can login as an Admin and create new employee roles such as employee creation and update as well as, If we are new employees to the app then we will creating new employee details with the help of SignUp. After user creation you can login in to the app with login employeeId and password that you are provided by the time of creation and update the user details if you want.
 
