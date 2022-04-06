@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
   public doLogin(){
     if(this.userId==="admin" && this.password==="admin"){
       window.alert("Admin login successful")
-      this.router.navigate(['employees']);
+      this.router.navigate(['/employees']);
     }
     else{
     this.employeeService.doLign(this.userId,this.password).subscribe(data =>{
@@ -48,7 +48,7 @@ export class LoginComponent implements OnInit {
         window.alert(this.message);
         this.router.navigate(['']);
       }
-    
+
     });
   }
 

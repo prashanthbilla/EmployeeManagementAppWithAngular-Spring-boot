@@ -42,7 +42,7 @@ export class UpdateOneEmployeeComponent implements OnInit {
   }
 
   back(){
-    this.router.navigate(['/employees']);
+    this.router.navigate(['/success-login', this.id]);
   }
 
   logout(){
