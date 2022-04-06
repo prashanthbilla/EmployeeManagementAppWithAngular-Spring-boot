@@ -80,7 +80,7 @@ ___________________________________________________________________
 ## Login (When employeeId and passwords are incorrect):
 ![BadCredentials](https://user-images.githubusercontent.com/85600714/161903164-023b9116-ce36-4f62-92da-dc517a0380e4.png)
 
-## 1.Login as Admin(Success):
+## Login as Admin(Success):
 ![AdminLoginSuccess](https://user-images.githubusercontent.com/85600714/161903194-ca21d2c9-8875-4195-89a9-f489eff0a808.png)
 
 Showing All Employees in Admin Login:
