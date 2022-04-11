@@ -11,7 +11,8 @@ import { EmployeeDetailsComponent } from './employee-details/employee-details.co
 import { LoginComponent } from './login/login.component';
 import { LoginDispalyComponent } from './login-dispaly/login-dispaly.component';
 import { UpdateOneEmployeeComponent } from './update-one-employee/update-one-employee.component';
-import { SignupCreateComponent } from './signup-create/signup-create.component'
+import { SignupCreateComponent } from './signup-create/signup-create.component';
+import {MatPaginatorModule} from '@angular/material/paginator';;
 
 @NgModule({
   declarations: [
@@ -23,13 +24,14 @@ import { SignupCreateComponent } from './signup-create/signup-create.component'
     LoginComponent,
     LoginDispalyComponent,
     UpdateOneEmployeeComponent,
-    SignupCreateComponent
+    SignupCreateComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

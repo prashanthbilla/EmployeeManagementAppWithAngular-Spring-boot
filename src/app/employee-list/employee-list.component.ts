@@ -9,6 +9,7 @@ import { Response } from '../response';
   styleUrls: ['./employee-list.component.css']
 })
 export class EmployeeListComponent implements OnInit {
+  
 
   employees: Employee[];
   response:Response;
@@ -43,8 +44,6 @@ export class EmployeeListComponent implements OnInit {
     this.employeeService.deleteEmployee(id).subscribe( data => {
       this.getEmployees();
     })
-  }else{
-    window.alert("Data not deleted");
   }
   }
 

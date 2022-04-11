@@ -8,7 +8,7 @@ import { Employee } from './employee';
 })
 export class EmployeeService {
 
-  private baseURL = "http://localhost:8081/app/v1/";
+  private baseURL = "http://localhost:9595/app/v1/";
 
   constructor(private httpClient: HttpClient) { }
   
@@ -33,7 +33,7 @@ export class EmployeeService {
   }
 
   doLign(userId:string, password:string){
-    return this.httpClient.get(`http://localhost:8081/app/v1/login?userId=${userId}&password=${password}`);
+    return this.httpClient.get(`${this.baseURL}/login?userId=${userId}&password=${password}`);
   }
 
   getOneEmployeesList(id:number): Observable<Employee[]>{
